@@ -1,31 +1,40 @@
 import React from "react"
 import { AiFillLinkedin, AiFillGithub,AiFillPhone, AiFillRedEnvelope, AiFillCopyrightCircle } from "react-icons/ai"
-
+import ShinyEffect from "./ShinyEffect"
 import Reveal from "./Reveal"
-import { Link } from "react-scroll"
+
 
 
 const Contact = () => {
   return (
     <>
     <div className="flex flex-row">
-
-    <div className="px-6 max-w-[1000px] mx-auto md:my-12 text-white" id="contact">
+    
+    <div className="px-6 max-w-[1000px] mx-auto md:my-12 text-white " id="contact">
+      
     <h1 className="text-white text-4xl font-bold ">Contact Me :-</h1>
+
         <Reveal>
         <div className="text-center">
+          
         <h5 className="text-xl font-bold mb-6 mt-16 underline">Get in Touch</h5>
         <p className="text-[#ADB7BE] mb-8 max-w-3xl mx-auto">
           Feel free to reach out if you have any questions or opportunities to discuss. I am always open to connect!
         </p>
       </div>
 
-      <div className="flex flex justify-center gap-12 flex-wrap">
+      <div className="flex flex justify-center gap-12 flex-wrap cursor-pointer">
         {/* Phone Number */}
         <div className="flex items-center gap-3 mb-8">
           <AiFillPhone className="text-primary-500 text-3xl" />
-          <p className="text-lg font-medium">+91 7036584341</p>
+          <a 
+            href="tel:+917036584341" 
+            className="text-lg font-medium hover:underline"
+          >
+            +91 7036584341
+          </a>
         </div>
+
 
         {/* Email */}
         <div className="flex items-center gap-3 mb-8">
@@ -46,6 +55,7 @@ const Contact = () => {
             github.com/AshuRaj7
           </a>
         </div>
+       
 
         {/* LinkedIn */}
         <div className="flex items-center gap-3 mb-8">

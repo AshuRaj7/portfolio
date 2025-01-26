@@ -13,6 +13,9 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="mt-24 max-w-screen mx-auto relative">
+             <div className="absolute inset-0 hidden md:block">
+            <ShinyEffect left={0} top={0} size={1000} />
+        </div>
         <div className="grid md:grid-cols-2 place-items-center gap-8">
             <motion.div
             initial={{ opacity: 0, y: -50 }}
@@ -35,7 +38,7 @@ const Hero = () => {
                     repeat={Infinity}
                     className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4"
                 />
-
+                    
                 <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -59,7 +62,8 @@ const Hero = () => {
                 >
                     I am a passionate Web developer.
                 </motion.p>
-
+                    
+       
                 <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -111,9 +115,6 @@ const Hero = () => {
 
         </motion.div>
 
-        <div className="absolute inset-0 hidden md:block">
-            <ShinyEffect left={0} top={0} size={1400} />
-        </div>
         
     </div>
   )

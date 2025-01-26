@@ -38,10 +38,10 @@ const Navbar = () => {
             <h3>Bodhanki Ashok Kumar</h3>
             {/* <a href="#">Welcome</a> */}
 
-            <ul className='hidden md:flex gap-12 z-10 cursor-pointer'>
-                <li><Link to="skills" smooth={true} offset={-400} duration={500}>About</Link></li>
-                <li><Link to="Proj" smooth={true} offset={-60} duration={500}>Projects</Link></li>
-                <li><Link to="contact" smooth={true} offset={-80} duration={500}>Contact</Link></li>
+            <ul className='hidden md:flex gap-12 z-10 cursor-pointer '>
+                <li  ><Link to="skills" smooth={true} offset={-400} duration={500}>About</Link></li>
+                <li  ><Link to="Proj" smooth={true} offset={-60} duration={500}>Projects</Link></li>
+                <li  ><Link to="contact" smooth={true} offset={-80} duration={500}>Contact</Link></li>
             </ul>
 
             <div onClick={toggleNav} className='md:hidden z-50 text-gray-200'>
