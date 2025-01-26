@@ -30,23 +30,29 @@ const Contact = () => {
         {/* Email */}
         <div className="flex items-center gap-3 mb-8">
           <AiFillRedEnvelope className="text-primary-500 text-3xl" />
-          <p className="text-lg font-medium">shoky093@gmail.com</p>
+          <a
+              href="mailto:shoky093@gmail.com"
+              target="_blank"
+              className="text-lg font-medium hover:underline"
+            >
+              shoky093@gmail.com
+            </a>
         </div>
 
         {/* GitHub */}
         <div className="flex items-center gap-3 mb-8">
           <AiFillGithub className="text-primary-500 text-3xl" />
-          <Link href="https://github.com/AshuRaj7" target="_blank" className="text-lg font-medium hover:underline">
+          <a href="https://github.com/AshuRaj7" target="_blank" className="text-lg font-medium hover:underline">
             github.com/AshuRaj7
-          </Link>
+          </a>
         </div>
 
         {/* LinkedIn */}
         <div className="flex items-center gap-3 mb-8">
           <AiFillLinkedin className="text-primary-500 text-3xl" />
-          <Link href="https://www.linkedin.com/in/ashok-kumar-bodhanki-24a44425a/" target="_blank" className="text-lg font-medium hover:underline">
+          <a href="https://www.linkedin.com/in/ashok-kumar-bodhanki-24a44425a/" target="_blank" className="text-lg font-medium hover:underline">
             Bodhanki_Ashok_Kumar 
-          </Link>
+          </a>
         </div>
       </div>
 

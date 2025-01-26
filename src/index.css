@@ -5,7 +5,7 @@
 
 body {
   font-family: "Space Grotesk", sans-serif;
-  background-color: #0b0e1f;
+  background-color: #060d33;
   overflow-x: hidden;
 }
 
@@ -27,7 +27,7 @@ span {
   border-radius: 50%;
   pointer-events: none;
   z-index: 1;
-  background: radial-gradient(circle, rgba(19, 132, 202, 0.521), transparent 70%);
+  background: radial-gradient(circle, rgba(19, 132, 202, 0.32), transparent 70%);
 }
 
 .bg-primary-color {

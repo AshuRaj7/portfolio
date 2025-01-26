@@ -8,15 +8,16 @@ import { AiFillGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
-    {
-      img: project1,
-      title: "Project #1",
-      description: "A platform designed to simplify property hunting by providing a user-friendly interface to browse, search, and contact property listings. Built using Python and Django, with MySQL as the database.",
-      links: {
-        site: "#",
-        github: "https://github.com/AshuRaj7/HomelySpace",
-      },
+  {
+    img: project4,
+    title: "Project #1",
+    description: "A personal portfolio website built using ReactJS to showcase projects, skills, and achievements. The site is fully responsive, styled with TailwindCSS, and features dynamic routing and React hooks for smooth navigation and interactivity.",
+    links: {
+      site: "#",
+      github: "https://github.com/AshuRaj7/portfolio",
     },
+  },
+   
     {
       img: project2,
       title: "Project #2",
@@ -36,12 +37,12 @@ const projects = [
       },
     },
     {
-      img: project4,
+      img: project1,
       title: "Project #4",
-      description: "A personal portfolio website built using ReactJS to showcase projects, skills, and achievements. The site is fully responsive, styled with TailwindCSS, and features dynamic routing and React hooks for smooth navigation and interactivity.",
+      description: "A platform designed to simplify property hunting by providing a user-friendly interface to browse, search, and contact property listings. Built using Python and Django, with MySQL as the database.",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/AshuRaj7/HomelySpace",
       },
     },
  

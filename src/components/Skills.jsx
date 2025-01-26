@@ -45,7 +45,7 @@ const Skills = () => {
   return (
     <>
                 <div className="flex flex-col  justify-center items-center text-gray-300 my-3">
-                    <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
+                    <h3 className="text-4xl font-bold mb-5">About <span>Me</span></h3>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
                     I am a full-stack developer with a strong foundation in Python and JavaScript, specializing in creating efficient and user-friendly web applications.
                     My expertise includes backend development with Django and frontend development with React, along with proficiency in working with databases like MySQL, SQLite, and PostgreSQL.
@@ -60,7 +60,7 @@ const Skills = () => {
     <div className="max-w-[700px] mx-auto  flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12" id="skills">
         
         <Reveal>
-        <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
+        <h2 className="text-4xl font-bold mb-4 text-center">Skills</h2>
         <p className="flex flex-row text-center mb-8">
             I worked on various frontend and fullstack projects.<u>Check here-{'>'}</u>   
                         <motion.a className='text-4xl' whileHover={{ scale: 1.2 }} href="#">
