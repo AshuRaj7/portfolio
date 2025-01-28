@@ -60,7 +60,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                 >
-                    I am a passionate Web developer.
+                    I am also Intrested Cyber Security And Ethical Hacking  .
                 </motion.p>
                     
        
@@ -75,15 +75,15 @@ const Hero = () => {
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"     
                     >
-                      <a href='#'>Download CV </a>  
+                      <a href='https://drive.google.com/file/d/1HBSPO0U1Io-jLzrIXPXOWIcKlQf6GyG9/view?usp=drive_link' target="blank">Download CV </a>  
                     </motion.button>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/AshuRaj7">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/AshuRaj7" target="blank">
                             <AiOutlineGithub/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/ashok-kumar-bodhanki-24a44425a/">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/ashok-kumar-bodhanki-24a44425a/" target="blank">
                             <AiOutlineLinkedin/>
                         </motion.a>
 

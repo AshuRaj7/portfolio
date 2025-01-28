@@ -14,7 +14,7 @@ const projects = [
     title: "Project #1",
     description: "A personal portfolio website built using ReactJS to showcase projects, skills, and achievements. The site is fully responsive, styled with TailwindCSS, and features dynamic routing and React hooks for smooth navigation and interactivity.",
     links: {
-      site: "#",
+      site: "/",
       github: "https://github.com/AshuRaj7/portfolio",
     },
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "Project #3",
     description: "A responsive ReactJS application for exploring and searching movies. It fetches real-time data from the OMDb API and showcases movie details using React Router, hooks, and TailwindCSS for styling.",
     links: {
-      site: "#",
+      site: "https://moviemania-jade.vercel.app/",
       github: "https://github.com/AshuRaj7/MovieApp",
     },
   },
@@ -115,7 +115,7 @@ const Projects = () => {
                   className="w-full h-full object-full rounded-lg shadow-lg"
                 />
               </div>
-              <div className="absolute inset-0 md:block">
+              <div className="absolute inset-0 pointer-events-none md:block">
                 <ShinyEffect left={0} top={0} size={1400} />
               </div>
               <div className="w-full md:w-1/2 p-4 flex flex-col justify-center">
