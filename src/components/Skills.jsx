@@ -51,12 +51,20 @@ const certifications = [
   
 ];
 
-const education = {
-  degree : "Btech :",
+const education = [
+  {
+  degree : "Btech : ",
   collegeName: " Vignan's Institute of Information Technology ",
-  period : '2021-2025',
-};
-
+  place : "Gajuwaka",
+  period : '2021 - 2025',
+},
+{
+  degree : "Diploma : ",
+  collegeName: " Government Polytechnic Collage ",
+  place:"Anakapalli",
+  period : '2017 - 2020',
+},
+]
 const Skills = () => {
   const [activeTab, setActiveTab] = useState("Skills");
 
@@ -136,7 +144,15 @@ const Skills = () => {
           {activeTab === "Education" && (
             <div>
               <h2 className="text-4xl font-bold mb-4 text-center">Education</h2>
-              <p className="text-center text-lg"><b>{education.degree} </b> &ensp; {education.collegeName}, &ensp; <b>{education.period}</b></p>
+              <ul className="space-y-2">
+            {education.map((college, index) => (
+              <li key={index}>
+                <p className="text-center text-white text-lg"><b>{college.degree} </b> &ensp; {college.collegeName}, &nbsp; {college.place}. &ensp; <b>{college.period}</b></p>
+
+              </li>
+            ))}
+          </ul>
+            
             </div>
           )}
 
