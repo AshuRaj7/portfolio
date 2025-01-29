@@ -32,7 +32,7 @@ const projects = [
     title: "Project #3",
     description: "A responsive ReactJS application for exploring and searching movies. It fetches real-time data from the OMDb API and showcases movie details using React Router, hooks, and TailwindCSS for styling.",
     links: {
-      site: "https://moviemania-jade.vercel.app/",
+      site: "https://moviemania-steel.vercel.app",
       github: "https://github.com/AshuRaj7/MovieApp",
     },
   },
@@ -123,14 +123,17 @@ const Projects = () => {
                 <div className="flex space-x-4">
                   <a
                     href={project.links.site}
+                    target='blank'
                     className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300"
                   >
                     View Site
                   </a>
                   <a
                     href={project.links.github}
+                    target='blank'
                     className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300"
                   >
+
                     <AiFillGithub />
                   </a>
                 </div>
@@ -144,3 +147,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
