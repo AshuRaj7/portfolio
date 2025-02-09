@@ -75,7 +75,7 @@ const Hero = () => {
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"     
                     >
-                      <a href='https://drive.google.com/file/d/1HBSPO0U1Io-jLzrIXPXOWIcKlQf6GyG9/view?usp=drive_link' target="blank">Download CV </a>  
+                      <a href='https://drive.google.com/file/d/1JmpEwDGYcELL9gTftGDjowgT8E8Yi_J3/view?usp=drive_link' target="blank">View Resume</a>  
                     </motion.button>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
