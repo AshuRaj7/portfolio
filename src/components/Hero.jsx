@@ -60,7 +60,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                 >
-                    I am also Intrested Cyber Security And Ethical Hacking  .
+                    I am also Intrested In Cyber Security And Ethical Hacking  .
                 </motion.p>
                     
        
