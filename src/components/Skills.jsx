@@ -38,10 +38,10 @@ const skills = [
 
 const certifications = [
   {name: "Python Certification", site :'https://drive.google.com/file/d/12udMOcSMRIIR3NCiwGzdHR1S8qoptxCL/view?usp=drive_link'},
-  {name:"Django Certification",sit:'https://drive.google.com/file/d/1H8kl2tYefWeZqqls1P0C8fUKjKf1Kp9h/view?usp=drive_link'},
-  {name:"CCNA Certification",sit:'https://drive.google.com/file/d/1Gx0VNTXVN_tpipaI0C1JxK0X6ofu0E3q/view?usp=drive_link'},
-  {name:"Cybersecurity Certification",sit:'https://drive.google.com/file/d/1GxYzF1DQNMJUd2CDiEe8Na68oVWdc8al/view?usp=drive_link'},
-  {name:"Ethical Hacking Certification",sit:'https://drive.google.com/file/d/1H09KFjSYUYsncOxVa1MMTQNX_J9HXYT_/view?usp=drive_link'},
+  {name:"Django Certification",site:'https://drive.google.com/file/d/1H8kl2tYefWeZqqls1P0C8fUKjKf1Kp9h/view?usp=drive_link'},
+  {name:"CCNA Certification",site:'https://drive.google.com/file/d/1Gx0VNTXVN_tpipaI0C1JxK0X6ofu0E3q/view?usp=drive_link'},
+  {name:"Cybersecurity Certification",site:'https://drive.google.com/file/d/1GxYzF1DQNMJUd2CDiEe8Na68oVWdc8al/view?usp=drive_link'},
+  {name:"Ethical Hacking Certification",site:'https://drive.google.com/file/d/1H09KFjSYUYsncOxVa1MMTQNX_J9HXYT_/view?usp=drive_link'},
   {name:'',sit:''},
   {name:'',sit:''},
 
